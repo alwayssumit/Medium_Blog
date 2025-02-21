@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@codingprism/medium-common": "^1.0.3",
+    "@codingprism/medium": "^1.0.2",
     "axios": "^1.7.9",
     "date-fns": "^4.1.0",
     "jwt-decode": "^4.0.0",

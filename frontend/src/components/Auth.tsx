@@ -4,12 +4,13 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom"
 import { BACKEND_URL } from "../config";
 import toast from "react-hot-toast";
-import { SignupInput } from "@codingprism/medium-common";
+import { SigninInput } from "@codingprism/medium";
+
 
 
 
 export const Auth=({type}:{type:"signup"|"signin"})=>{
-   const [postInputs,setpostInputs]=useState<SignupInput>({
+   const [postInputs,setpostInputs]=useState<SigninInput>({
     email:"",
     password:"",
     name:""
