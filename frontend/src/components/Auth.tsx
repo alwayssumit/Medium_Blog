@@ -7,6 +7,7 @@ import toast from "react-hot-toast";
 import { SignupInput } from "@codingprism/medium-common";
 
 
+
 export const Auth=({type}:{type:"signup"|"signin"})=>{
    const [postInputs,setpostInputs]=useState<SignupInput>({
     email:"",
