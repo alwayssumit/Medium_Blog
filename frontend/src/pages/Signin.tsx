@@ -1,6 +1,7 @@
 import { Auth } from "../Components/Auth"
 import Quote from "../Components/Quote"
 
+
 export const Signin = ()=>{
 
     return <div>
@@ -9,7 +10,7 @@ export const Signin = ()=>{
                 <Auth type="signin"/>
             </div>
             <div className="invisible lg:visible">
-               <Quote />
+               <Quote/>
             </div>
         </div>
        
